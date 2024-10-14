@@ -1,0 +1,1991 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Unity/Assign3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59380
+Successfully changed project path to: C:/Users/User/Unity/Assign3
+C:/Users/User/Unity/Assign3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6684]  Target information:
+
+Player connection [6684]  * "[IP] 172.27.144.1 [Port] 0 [Flags] 2 [Guid] 3517109012 [EditorId] 3517109012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1RR5JGA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6684]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 3517109012 [EditorId] 3517109012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1RR5JGA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6684]  * "[IP] 192.168.0.213 [Port] 0 [Flags] 2 [Guid] 3517109012 [EditorId] 3517109012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1RR5JGA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6684] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6684] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 10.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Unity/Assign3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   32.0.11037.4004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010282 seconds.
+- Loaded All Assemblies, in  0.373 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 630ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.660 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 3928.
+Memory consumption went from 157.8 MB to 156.0 MB.
+Total: 3.561100 ms (FindLiveObjects: 0.335000 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.606900 ms  DeleteObjects: 0.509900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1980435.536766 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Bumps
+  artifactKey: Guid(b2e529210493b5245bfbaf21855703f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Bumps using Guid(b2e529210493b5245bfbaf21855703f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b648c0156e5497e6916a652ed75c6718') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032733 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_1.prefab
+  artifactKey: Guid(54c195818b640bf41bb70e3ad787a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_1.prefab using Guid(54c195818b640bf41bb70e3ad787a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1be3c415b67f8c93055ffce0bfe47329') in 0.115147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.017789 seconds.
+  path: Assets/Scenes/MainTrack_Profiles/Global.asset
+  artifactKey: Guid(e116ab3b3f28c9e4fb33730159d7cf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTrack_Profiles/Global.asset using Guid(e116ab3b3f28c9e4fb33730159d7cf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc7f7a8112a1882f1bed876926864e8f') in 0.008082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.108576 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Spoilers
+  artifactKey: Guid(e1b6b87e61c65524db91ac754defac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Spoilers using Guid(e1b6b87e61c65524db91ac754defac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed4e2153c568601e2ebb6bac420179c3') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028134 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR.fbx
+  artifactKey: Guid(e74ad652641adaf4594eac232cbe08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR.fbx using Guid(e74ad652641adaf4594eac232cbe08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa333877aae15bfd2ca0c0923cdae745') in 0.035112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001486 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Textures/Kart_Textures
+  artifactKey: Guid(5058131ebcc03d545b839fd96683323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Textures/Kart_Textures using Guid(5058131ebcc03d545b839fd96683323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3f021a6b3b8fdade0aa1d4256d33a39') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002162 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Gates
+  artifactKey: Guid(e1cdaf0af6938424bb9a422c7ff80447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Gates using Guid(e1cdaf0af6938424bb9a422c7ff80447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c39bc0273a2ac987812f7fbbabbf46b9') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012462 seconds.
+  path: Assets/Materials/Materials/Level.mat
+  artifactKey: Guid(a2b6d6c52b38b55498ad8080e67e92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Level.mat using Guid(a2b6d6c52b38b55498ad8080e67e92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27566bd02c3f52f68ea8a4d2f0b0768d') in 0.033821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.049203 seconds.
+  path: Assets/Anims/WindFlapMain.anim
+  artifactKey: Guid(150c6563a42ab8443b1e3135e117266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/WindFlapMain.anim using Guid(150c6563a42ab8443b1e3135e117266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc2d84b08811daf20a52ab4fdf2e0a3a') in 0.002421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.063802 seconds.
+  path: Assets/Scenes/MainTrack/NavMesh-NavMesh Surface.asset
+  artifactKey: Guid(f45f0bdf35b528446b8792707eb03b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTrack/NavMesh-NavMesh Surface.asset using Guid(f45f0bdf35b528446b8792707eb03b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5dd421b9c0114ecac81728669297d8a') in 0.001611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032433 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_01_SPR.prefab
+  artifactKey: Guid(6343169fdb7c3e5429ce4b6928d1636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_01_SPR.prefab using Guid(6343169fdb7c3e5429ce4b6928d1636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba703fd2a6fd6fc8b26bbcf9eac6961a') in 0.044334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.013946 seconds.
+  path: Assets/Scenes/MainTrack.unity
+  artifactKey: Guid(abbf0c1da40a6b640ac6c9bb6c432027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTrack.unity using Guid(abbf0c1da40a6b640ac6c9bb6c432027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc286d50ba0b97da00643bfb3f30dcf4') in 0.000625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102052 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Small_02_SPR.fbx
+  artifactKey: Guid(32b68d9949b71d94191e52886ee4a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Small_02_SPR.fbx using Guid(32b68d9949b71d94191e52886ee4a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea6573f89f064ff3567f95c9b5fd3782') in 0.014875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.037190 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Wheel
+  artifactKey: Guid(f59bbea53ef342b40a7ad6a3dbd34c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Wheel using Guid(f59bbea53ef342b40a7ad6a3dbd34c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7156f841e5fbfecccf755b6f4f662a8') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003944 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR.fbx
+  artifactKey: Guid(2211334b7cb61a747a93970617bdeb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR.fbx using Guid(2211334b7cb61a747a93970617bdeb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7e902b971340ff1842c69e567e1eb66') in 0.014468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.112056 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_05_SPR.prefab
+  artifactKey: Guid(210d7c5e18ff7ac4880424d44943f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_05_SPR.prefab using Guid(210d7c5e18ff7ac4880424d44943f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2fd5c2c847b68270915311b655d871f') in 0.015749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.004007 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR.fbx
+  artifactKey: Guid(3ccccaa1de96c5545a3cd21c9f029da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR.fbx using Guid(3ccccaa1de96c5545a3cd21c9f029da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82cff768adc4b40b3f33b67cb2fc5901') in 0.015013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.024976 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR.fbx
+  artifactKey: Guid(6b85d31d5f014734783cd624208a7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR.fbx using Guid(6b85d31d5f014734783cd624208a7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a81bb7c1826138272c3e0aac03f283d') in 0.014101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.009730 seconds.
+  path: Assets/Scenes/CreditsScene.unity
+  artifactKey: Guid(9895375dc21f28b438ab7aad4406cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CreditsScene.unity using Guid(9895375dc21f28b438ab7aad4406cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '817fd60a062203896b1220057d8dfafe') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030946 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_03_SPR.prefab
+  artifactKey: Guid(131a8a87560d6a24c948e0a62a1924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_03_SPR.prefab using Guid(131a8a87560d6a24c948e0a62a1924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6192b4d6f736741ccecd365117832713') in 0.010377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.010198 seconds.
+  path: Assets/CactusPack/Scenes/CactusPack_MiniScene.unity
+  artifactKey: Guid(70f6d83a4ef81b24da7ea9d4df97c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Scenes/CactusPack_MiniScene.unity using Guid(70f6d83a4ef81b24da7ea9d4df97c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75cd40e2e3e88fd84cfbd7930b72d62c') in 0.000751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047638 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_2.prefab
+  artifactKey: Guid(64b692b72c99aca4eb12ef964131c3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_2.prefab using Guid(64b692b72c99aca4eb12ef964131c3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ae98323a7f1349d57b71b03c9286b9c') in 0.016047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.009605 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 02.prefab
+  artifactKey: Guid(107cc8771223daf48be99527559937ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 02.prefab using Guid(107cc8771223daf48be99527559937ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '394c2b4ac0e39f3cd8d69e48d731ddd7') in 0.011373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003544 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Small_01_SPR_COL.fbx
+  artifactKey: Guid(0d250883a42d8a042b388d69299aff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Small_01_SPR_COL.fbx using Guid(0d250883a42d8a042b388d69299aff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aead78be991de70e356267a2e0a59dc7') in 0.013965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.352290 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_04_SPR.prefab
+  artifactKey: Guid(307e7b37b9e5dab429b3bea97f70857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_04_SPR.prefab using Guid(307e7b37b9e5dab429b3bea97f70857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0bdf6a1dafb69b05259fdab72a590d50') in 0.009745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.042988 seconds.
+  path: Assets/Materials/Materials
+  artifactKey: Guid(10d928688fde5044eb2b2700a8901bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials using Guid(10d928688fde5044eb2b2700a8901bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7713bea9253923e76688e16c11a77eb2') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015996 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts
+  artifactKey: Guid(05b8ccf71feefb94aa2ee43eeedb88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts using Guid(05b8ccf71feefb94aa2ee43eeedb88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '230e8caab2e9997f2d5aeaa531d61669') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043664 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Flags
+  artifactKey: Guid(fdc0f1418be7a89419da5d2f3538ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Flags using Guid(fdc0f1418be7a89419da5d2f3538ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3fd13e771ff46e2e4bd76aef18b41d1') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041981 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 03.prefab
+  artifactKey: Guid(98653de49a7044442972e6997c40db16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 03.prefab using Guid(98653de49a7044442972e6997c40db16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '574f0c78ecb6e433c8a14e78dfd37901') in 0.012842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.104280 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Small_01_SPR.prefab
+  artifactKey: Guid(07459c3fe1b9def45b2a409f28302e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Small_01_SPR.prefab using Guid(07459c3fe1b9def45b2a409f28302e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '605d3a7b383cb334e45bb96fbea959d4') in 0.010066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006454 seconds.
+  path: Assets/_DesertKits64_Sample/ShowcaseScene_SampleSettings.lighting
+  artifactKey: Guid(03d34101793b3f941a905b59bf34dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DesertKits64_Sample/ShowcaseScene_SampleSettings.lighting using Guid(03d34101793b3f941a905b59bf34dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5306b46550b5aa43f4699209fa6a1e5e') in 0.001547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017
+  artifactKey: Guid(9ae9a043594a6d741a2956119b230b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017 using Guid(9ae9a043594a6d741a2956119b230b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '741868d015ca8e6eaa416b0bfdcbf963') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.138929 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 05.prefab
+  artifactKey: Guid(76be61eeff2e7164cb99e1cf8cf0c22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 05.prefab using Guid(76be61eeff2e7164cb99e1cf8cf0c22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09ad60bfb430c48a5d1f79d43a6fc933') in 0.021176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.009477 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 03.prefab
+  artifactKey: Guid(b1b1573cfe717c04caad3e631288f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 03.prefab using Guid(b1b1573cfe717c04caad3e631288f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '117725adc0f98a48242bf412eeac73b3') in 0.014363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.091140 seconds.
+  path: Assets/CactusPack/Scenes/CactusPack_MiniSceneSettings.lighting
+  artifactKey: Guid(3ad0cce43a83c4447b63e668c98a6daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Scenes/CactusPack_MiniSceneSettings.lighting using Guid(3ad0cce43a83c4447b63e668c98a6daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '6803780a933a94660d171b73b73ae84d') in 0.001371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012103 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Exhausts
+  artifactKey: Guid(7a42b9e66a0b2d040ae005184d99b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Exhausts using Guid(7a42b9e66a0b2d040ae005184d99b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27d464219922f4a6246c2006e57c556e') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031154 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR_COL.fbx
+  artifactKey: Guid(6f250696873bcaf45ac36b33014f6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR_COL.fbx using Guid(6f250696873bcaf45ac36b33014f6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a402bb8b2eb6671916dea2b7cfcf0eb0') in 0.014858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.064318 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR_COL.fbx
+  artifactKey: Guid(4b2668649840f3b46aaafc727815f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR_COL.fbx using Guid(4b2668649840f3b46aaafc727815f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46ded9ef4bea393d3647c7b7c9121228') in 0.015252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.153557 seconds.
+  path: Assets/CactusPack/Meshes/Materials
+  artifactKey: Guid(59593254afc6c304ea261953f9ccf6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Materials using Guid(59593254afc6c304ea261953f9ccf6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6bdc9a3eafa56a26b8d0b49d03fbb12') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036219 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 05.prefab
+  artifactKey: Guid(aec50823ac9be1b45b5778c3b6c0f51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 05.prefab using Guid(aec50823ac9be1b45b5778c3b6c0f51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '575828ac283597f9f9a62d86e1b8c4a6') in 0.014548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003474 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/LightingData.asset
+  artifactKey: Guid(9235e21aad383004ba4815536366ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/LightingData.asset using Guid(9235e21aad383004ba4815536366ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'deead5f8bcdb5b7bd5a774ce154e8811') in 0.002873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.034139 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Barrier
+  artifactKey: Guid(7fc34b246447ea1418a7d2c4c6a0895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Barrier using Guid(7fc34b246447ea1418a7d2c4c6a0895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afa89f4e1e3f77c9368d23b359ae3f17') in 0.000562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006797 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Wheels
+  artifactKey: Guid(3e873324dcad521438a454ed38a1c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Wheels using Guid(3e873324dcad521438a454ed38a1c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ecf658206e1b64f89d0b85ab110e646') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004181 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_03_SPR.prefab
+  artifactKey: Guid(df2b851f595fb274d96fbc32fa5a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_03_SPR.prefab using Guid(df2b851f595fb274d96fbc32fa5a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a829bff0cf08443a800980dbd78cd4f') in 0.010577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.040360 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 04.prefab
+  artifactKey: Guid(8a7cf5ac7b4145441a3dca86f869b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 04.prefab using Guid(8a7cf5ac7b4145441a3dca86f869b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eaccf227efc17d9f539b42337f6e07cc') in 0.016814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.025953 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(14858868cd389904e83e06ad927129b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(14858868cd389904e83e06ad927129b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '690a7d33e6a4d0839954dd4a9f18c97e') in 0.675017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 343
+========================================================================
+Received Import Request.
+  Time since last request: 0.252563 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002
+  artifactKey: Guid(84e67ed20e6185846b3371dbdcab2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002 using Guid(84e67ed20e6185846b3371dbdcab2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4ed88639f73226da52baa4eb2fdec5e') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033798 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Large_SPR.prefab
+  artifactKey: Guid(b040f51610eb81b49bc5e38862e3191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Large_SPR.prefab using Guid(b040f51610eb81b49bc5e38862e3191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d7172882bec6cef583799630fec9049') in 0.010343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.007217 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_4.prefab
+  artifactKey: Guid(ac91dbc430f8b5d488d63e4d208bed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_4.prefab using Guid(ac91dbc430f8b5d488d63e4d208bed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd86a457c59862b1402a513035118458f') in 0.019400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.026667 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 01.prefab
+  artifactKey: Guid(fc05c8bfad7df5a4abe568aca7403b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 01.prefab using Guid(fc05c8bfad7df5a4abe568aca7403b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60319636f3a189a4223b2ff77cbffe2d') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.017410 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_04_SPR.prefab
+  artifactKey: Guid(8530ce626d3498343b44e2f35495eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_04_SPR.prefab using Guid(8530ce626d3498343b44e2f35495eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87e7f73cad6c739f49ffc6f8f871667e') in 0.010340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.029030 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR.fbx
+  artifactKey: Guid(0ff1be62de3432a4ebdaf96133f87f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR.fbx using Guid(0ff1be62de3432a4ebdaf96133f87f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76d8566627ac0e09970109a8c71ca89f') in 0.014232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.013505 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Body_Kits
+  artifactKey: Guid(1c33153d195e41f4980c5dd6726fc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Body_Kits using Guid(1c33153d195e41f4980c5dd6726fc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '640d9410943434b6d497b0f393c49cc5') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.154193 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Karts
+  artifactKey: Guid(b8ddaf59c6715b24cbde330a439df172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Karts using Guid(b8ddaf59c6715b24cbde330a439df172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d42996aab37f67d90d806731d1721a8') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003143 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_03_SPR.prefab
+  artifactKey: Guid(3a6caa437f2f3754b999e5a723c7bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_03_SPR.prefab using Guid(3a6caa437f2f3754b999e5a723c7bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae5a24da904f6d0a94bbef4d48279db5') in 0.010125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.044892 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR.fbx
+  artifactKey: Guid(2b863929c85ad30449515744af456c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR.fbx using Guid(2b863929c85ad30449515744af456c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '921b8c71c1aa3b540094aadb85f345b0') in 0.014522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.836874 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Obstacles
+  artifactKey: Guid(312450bee09f1b64f989b370c9e6b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Obstacles using Guid(312450bee09f1b64f989b370c9e6b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02c42a28d0c4f7291af42e435f39df90') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.370441 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 01.prefab
+  artifactKey: Guid(78c29697749a6d44e964f9a0cf83d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 01.prefab using Guid(78c29697749a6d44e964f9a0cf83d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f8574eedd33362c5baf6990e95f9a88') in 0.019120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.080913 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_02_SPR.prefab
+  artifactKey: Guid(6484221347de3074d8878f2ff4364052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_02_SPR.prefab using Guid(6484221347de3074d8878f2ff4364052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b971ba7319ac7aa724fba538e25f54b') in 0.010047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.012934 seconds.
+  path: Assets/Prefabs/Enemy1.prefab
+  artifactKey: Guid(893c998e76241fb43aeeac1383fb1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy1.prefab using Guid(893c998e76241fb43aeeac1383fb1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f00684f80714ce10ea69c1a36bdf1fbe') in 0.031212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 0.098107 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR_COL.fbx
+  artifactKey: Guid(732ee295cb54510468f444873824a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR_COL.fbx using Guid(732ee295cb54510468f444873824a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c3bf034cf1dc83a9526a02b6c883d88') in 0.014562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.018097 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR_COL.fbx
+  artifactKey: Guid(68c5e864b0b427247b6f7e483bbdefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR_COL.fbx using Guid(68c5e864b0b427247b6f7e483bbdefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6d04885c6f9d398c0a9e7c260a6dcd9') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.203288 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR.fbx
+  artifactKey: Guid(d1be977db065f224fa0ca393823ea994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR.fbx using Guid(d1be977db065f224fa0ca393823ea994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0fabb0e39f3baf96cd3bbaf5eecfd08') in 0.014517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.015202 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 04.prefab
+  artifactKey: Guid(613b4cc8c589ad8458e792ae21891bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 04.prefab using Guid(613b4cc8c589ad8458e792ae21891bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '276c420ed715f9fcb031f4e172373da5') in 0.028197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.673485 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 03.prefab
+  artifactKey: Guid(2327ed4809c34cf4c97a5316db3d4796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 03.prefab using Guid(2327ed4809c34cf4c97a5316db3d4796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '660ae2acfa5ccc216ce060a7bdb7ee7b') in 0.011317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.015645 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR.fbx
+  artifactKey: Guid(0e41bd8fd37e48b40bfdc1a79a81694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR.fbx using Guid(0e41bd8fd37e48b40bfdc1a79a81694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'acde156c474dc7ead9b1a70f9acdff04') in 0.013073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.006269 seconds.
+  path: Assets/CactusPack/Readme.txt
+  artifactKey: Guid(22e714f43c9a3584d8d9855c47b76770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Readme.txt using Guid(22e714f43c9a3584d8d9855c47b76770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccd92dd6f42a163f9ef342a2fecea5ec') in 0.000995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.189191 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Engines
+  artifactKey: Guid(8a794c003bc2268458036ca6d95e7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Engines using Guid(8a794c003bc2268458036ca6d95e7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '155fd45ecb4458c648c4bfce3f51d6a9') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044025 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_02_SPR.prefab
+  artifactKey: Guid(436b19f2e9c0d314d863eac5c1f59fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_02_SPR.prefab using Guid(436b19f2e9c0d314d863eac5c1f59fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67cea690cd0713a4728aff4194cfea52') in 0.010095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.066395 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 03.prefab
+  artifactKey: Guid(a1d34f7914a1d8148a0ce7262f7ba394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 03.prefab using Guid(a1d34f7914a1d8148a0ce7262f7ba394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76bc420a74b35ecd3cc3e7741726d1f5') in 0.013744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002668 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images
+  artifactKey: Guid(77b13a2db79c18849a50583508f41748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images using Guid(77b13a2db79c18849a50583508f41748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dca07a4c1c900ff5e2338ea66ed30452') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091611 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR_COL.fbx
+  artifactKey: Guid(6713c468ec3d7c548a07aafe909e2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR_COL.fbx using Guid(6713c468ec3d7c548a07aafe909e2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ca84efac87503190f24e5e5bca3d1a5') in 0.015675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.038823 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 04.prefab
+  artifactKey: Guid(3c74caa0496b18d4ba0a1009ebb4c992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 04.prefab using Guid(3c74caa0496b18d4ba0a1009ebb4c992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93867b9bb953ba974b5acbb8271d34d5') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.032423 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR_COL.fbx
+  artifactKey: Guid(c7c997e37efadf64f894ef7ad6d66b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR_COL.fbx using Guid(c7c997e37efadf64f894ef7ad6d66b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a1ac190a55ea4694f5af305f6fc8032') in 0.015712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.009134 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Medium_SPR.prefab
+  artifactKey: Guid(9aab8cf8a9d1a5f44ab5af9cbd900c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Medium_SPR.prefab using Guid(9aab8cf8a9d1a5f44ab5af9cbd900c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f935f3a2882f278ed64c9502ea919ab') in 0.010071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.014909 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Small_02_SPR_COL.fbx
+  artifactKey: Guid(165b2301775f21b48bfd3bc22dedf47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Small_02_SPR_COL.fbx using Guid(165b2301775f21b48bfd3bc22dedf47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07a08034b8dec33d5794cd8763ab90d4') in 0.015528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.006267 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 05.prefab
+  artifactKey: Guid(87a6cef862ce2cb4a88c5ca5d5af5d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 05.prefab using Guid(87a6cef862ce2cb4a88c5ca5d5af5d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5822165d549d5f0638a4b9ab972390e4') in 0.012913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.018772 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images
+  artifactKey: Guid(bf8032df4c9f72544920f02231a18127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images using Guid(bf8032df4c9f72544920f02231a18127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'daa26330ae3b392377fdd7c633eb75af') in 0.000684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018423 seconds.
+  path: Assets/Anims/Glider.controller
+  artifactKey: Guid(0a0fc6c4155de6f49b34e36e2ffd24c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Glider.controller using Guid(0a0fc6c4155de6f49b34e36e2ffd24c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73cc2549cc7bfcf6fe55e5cee87e9819') in 0.004611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.324385 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 05.prefab
+  artifactKey: Guid(9469bb1d3aa88ca40aa4079e96a27f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 05.prefab using Guid(9469bb1d3aa88ca40aa4079e96a27f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79137b045a659901617f8dbb0d0cff44') in 0.014168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.583004 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013
+  artifactKey: Guid(f11fc5ca5a0603d4f96f98c92e7cb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013 using Guid(f11fc5ca5a0603d4f96f98c92e7cb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61ed286e38bfc6144ee9d30ca47b301d') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056455 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures
+  artifactKey: Guid(13e5a42f2899f0849b9dc641367ed690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures using Guid(13e5a42f2899f0849b9dc641367ed690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2328348c77e374bcbb9b89ef07a6d4c') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.302097 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_3.prefab
+  artifactKey: Guid(2d1d98bed7423b74abc11a423066792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_3.prefab using Guid(2d1d98bed7423b74abc11a423066792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a245ccd544e7b54bb8942a33e3f25cd') in 0.032953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.085592 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 02.prefab
+  artifactKey: Guid(38ade0ba7c293f14a9b1b610879e9390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 02.prefab using Guid(38ade0ba7c293f14a9b1b610879e9390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9506bc5e7a858f1e2dc3c569abf5e66') in 0.018205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.031224 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_1.prefab
+  artifactKey: Guid(07b07028aa63ec04b84a638f8bdf568d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_1.prefab using Guid(07b07028aa63ec04b84a638f8bdf568d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c69235d83bd84f11b2252cd852bb1259') in 0.019203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.020492 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_5.prefab
+  artifactKey: Guid(69fc181e0681454459520ec4d0bc8652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_5.prefab using Guid(69fc181e0681454459520ec4d0bc8652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90ce679b54a0bab7f212fc16daccb54a') in 0.020470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.027332 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR_COL.fbx
+  artifactKey: Guid(7580cdc0a3b43c3468fb6f2ebd43521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR_COL.fbx using Guid(7580cdc0a3b43c3468fb6f2ebd43521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57a3fa9f7aadea8c491918a5a90c0495') in 0.014005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.036958 seconds.
+  path: Assets/Fantasy Skybox FREE/Readme.txt
+  artifactKey: Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Readme.txt using Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5875bdd28cc2797e2a5ddba321d2b530') in 0.001300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021320 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 03.prefab
+  artifactKey: Guid(d537224908c5f444f86c9e57e0c7234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 03.prefab using Guid(d537224908c5f444f86c9e57e0c7234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e62ab77da86f40f22c171e14523d11b7') in 0.091459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.027293 seconds.
+  path: Assets/CactusPack/Shaders/Basic_Rimlight.shader
+  artifactKey: Guid(657a545cf1d761445a05b82613848221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Shaders/Basic_Rimlight.shader using Guid(657a545cf1d761445a05b82613848221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3947b741d1cf5dcc37a006abc2e0aa50') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060625 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoScene.unity
+  artifactKey: Guid(9dc1cd15a36620a4d9d508f6740e3481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoScene.unity using Guid(9dc1cd15a36620a4d9d508f6740e3481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc357c54a5a3b05e50ae8c51894bfc9d') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003241 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_01_SPR.prefab
+  artifactKey: Guid(3c1a66d6cbc6a7f45843dab0aed99788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_01_SPR.prefab using Guid(3c1a66d6cbc6a7f45843dab0aed99788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50bbabbdd1ec070782aac867705b3ff7') in 0.016975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.529179 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_3.prefab
+  artifactKey: Guid(535153cb19a53df4395c78280765e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_3.prefab using Guid(535153cb19a53df4395c78280765e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3fd64243093b8b1e7e3fb5a5304bc9b') in 0.016227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.016959 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR.fbx
+  artifactKey: Guid(bb166efd54e09e44d9212d438881df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR.fbx using Guid(bb166efd54e09e44d9212d438881df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4da411ea4396939c06ea52adb2cc6874') in 0.013526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002500 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/demo_scripts
+  artifactKey: Guid(c6a29d9d25d4bd24eba48de2b8a2a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/demo_scripts using Guid(c6a29d9d25d4bd24eba48de2b8a2a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c33365740eedbc1bf69324040afff985') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051585 seconds.
+  path: Assets/CactusPack/Shaders/VertexBlend.shader
+  artifactKey: Guid(c7d4e0e167d7a814b933e95a889ce941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Shaders/VertexBlend.shader using Guid(c7d4e0e167d7a814b933e95a889ce941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0729c6c0746eefc1ff435150e3287743') in 0.001009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028432 seconds.
+  path: Assets/Terrain/TerrainData_2adbd53e-4076-47ef-9a7c-285d311ce4c0.asset
+  artifactKey: Guid(dc3ab5a15f725c447a2ce7888bf5866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_2adbd53e-4076-47ef-9a7c-285d311ce4c0.asset using Guid(dc3ab5a15f725c447a2ce7888bf5866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c06747ac7a3b5fff2a49f781ab646b47') in 0.022743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.095568 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR_COL.fbx
+  artifactKey: Guid(8f4c38f68c24e3e4881053cd05912b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR_COL.fbx using Guid(8f4c38f68c24e3e4881053cd05912b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63225ca57db16dfc12393819920cfb1f') in 0.014689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.008180 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoSceneSettings.lighting
+  artifactKey: Guid(ae6c26075f699ac49a1402f615d492b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoSceneSettings.lighting using Guid(ae6c26075f699ac49a1402f615d492b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '333b28334ba906c52e4cbd0f4ebb990e') in 0.001293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.105631 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images
+  artifactKey: Guid(48e3f898bc24b5d478085512959c6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images using Guid(48e3f898bc24b5d478085512959c6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd51e9e18895f5218287cfdca7877c926') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.669085 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_5.prefab
+  artifactKey: Guid(3d59b8f587959a344a4565857af1aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_5.prefab using Guid(3d59b8f587959a344a4565857af1aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a3b99bb11c9b36ef7f3767fe5531666') in 0.015829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.672554 seconds.
+  path: Assets/CactusPack/Meshes/Sprites
+  artifactKey: Guid(389ec0553be616046aa199289e4d7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites using Guid(389ec0553be616046aa199289e4d7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a7df3debc6c49b416cecae67db1f40a') in 0.000550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.235963 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 04.prefab
+  artifactKey: Guid(7c5aafe3fe2c6ef4a9150f7f44653760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 04.prefab using Guid(7c5aafe3fe2c6ef4a9150f7f44653760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17726d2afa9dc57d5782ba112d720bbc') in 0.423531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.459375 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR.fbx
+  artifactKey: Guid(7635c3917aa872c44916102d3179ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR.fbx using Guid(7635c3917aa872c44916102d3179ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49fd96fb2b2181737ffdf8303f312f55') in 0.013327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.103805 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR_COL.fbx
+  artifactKey: Guid(92a88a6f51f25554d98c1080f9ec7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR_COL.fbx using Guid(92a88a6f51f25554d98c1080f9ec7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b77032f94e4902a73a6d003b9c21165') in 0.020864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.219910 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 04.prefab
+  artifactKey: Guid(99a48108c5a1932488c06e519f6097f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 04.prefab using Guid(99a48108c5a1932488c06e519f6097f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '249c57e036e748a1196b2ecc60a178a9') in 0.020185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.031274 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Small_01_SPR.fbx
+  artifactKey: Guid(e18b376ac3af5be45aef694019066d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Small_01_SPR.fbx using Guid(e18b376ac3af5be45aef694019066d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b0fd656f68ab859b9087f0ed0341b2a') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.088807 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 01.prefab
+  artifactKey: Guid(11d469914a0208343b39f04223416f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 01.prefab using Guid(11d469914a0208343b39f04223416f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9457f0acdf9ad79a2dfcab7184f693b') in 0.017505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.260316 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 04.prefab
+  artifactKey: Guid(1e4e7284c1efd5f4eb702c799353072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 04.prefab using Guid(1e4e7284c1efd5f4eb702c799353072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4aa54ace4404a87f366390b2fe348c22') in 0.016734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.017844 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Cone_SPR.prefab
+  artifactKey: Guid(a839f37807922074992531fd9663f1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Cone_SPR.prefab using Guid(a839f37807922074992531fd9663f1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55a9ba2309aca208fd28731b48cdfaf0') in 0.021769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.078105 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Engines
+  artifactKey: Guid(52f03eda4cedd774badce2cb93911162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Engines using Guid(52f03eda4cedd774badce2cb93911162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5f10213b56b6d99d4d194c54efa4cbe') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009967 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR_COL.fbx
+  artifactKey: Guid(185e2b6e23adbf64eb33809152b58e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR_COL.fbx using Guid(185e2b6e23adbf64eb33809152b58e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3e3a59c661ea9c8379a0ef6d8374ed8') in 0.013750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.016024 seconds.
+  path: Assets/Anims/GliderClose.anim
+  artifactKey: Guid(54712c21c4d8bd14dbc823f82ba7fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/GliderClose.anim using Guid(54712c21c4d8bd14dbc823f82ba7fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02a5f48f243d6a876ba0f404a36e2772') in 0.001274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002852 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 01.prefab
+  artifactKey: Guid(3fd9507fb16d56044bcf520c1d14427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type7 01.prefab using Guid(3fd9507fb16d56044bcf520c1d14427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26d92c4145db4835d0a1af7beaa8a18d') in 0.013084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002458 seconds.
+  path: Assets/CactusPack/Scenes/CactusPack_MiniScene
+  artifactKey: Guid(ba24de0fd635242479dd00b34928b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Scenes/CactusPack_MiniScene using Guid(ba24de0fd635242479dd00b34928b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecee721e5d60987991c7922bf7c4d956') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041421 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR.fbx
+  artifactKey: Guid(5354aeda77cc9214180891c86287ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR.fbx using Guid(5354aeda77cc9214180891c86287ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa166820cef932df66d17ad9a7a41571') in 0.014686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.066614 seconds.
+  path: Assets/Scenes/MainTrack
+  artifactKey: Guid(f38d87ded775b64418677040c0dc96c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTrack using Guid(f38d87ded775b64418677040c0dc96c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '533f1d02c17eb56bd9fd2de0ff969ad9') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.295977 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 02.prefab
+  artifactKey: Guid(702740a5e4ac1ee40a1888d3b62faa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 02.prefab using Guid(702740a5e4ac1ee40a1888d3b62faa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8edb21de1b139e259670d00800a904a5') in 0.015316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.078148 seconds.
+  path: Assets/_DesertKits64_Sample/ShowcaseScene_Sample.unity
+  artifactKey: Guid(ed9be62a5d61eac49b6448f36af8cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DesertKits64_Sample/ShowcaseScene_Sample.unity using Guid(ed9be62a5d61eac49b6448f36af8cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1a3cfb3cfc2837b332b0ac2e107ccbe') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028412 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Exhausts
+  artifactKey: Guid(d8f0c35a6ffeffc49890c5b11639c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models/Exhausts using Guid(d8f0c35a6ffeffc49890c5b11639c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93f8f94aad21a9862b86cb60301fc033') in 0.000492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.139490 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_1.prefab
+  artifactKey: Guid(6f97e51e9f1efb242883d5bff4dc3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers/Spoiler_Prefab_1.prefab using Guid(6f97e51e9f1efb242883d5bff4dc3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35b4f24bd88fa7933491a6058088ec15') in 0.029806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.634304 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR_COL.fbx
+  artifactKey: Guid(d5fcf2254a2d36b4e8d53d3960dfcdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR_COL.fbx using Guid(d5fcf2254a2d36b4e8d53d3960dfcdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1876b0a4bfd84958e57d1bfb7b56ab79') in 0.019852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.009544 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 06.prefab
+  artifactKey: Guid(a9cc5585b9634a9449920c03ec6bc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 06.prefab using Guid(a9cc5585b9634a9449920c03ec6bc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd166471778423e8f8a263c2c099907ac') in 0.017637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.095554 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 02.prefab
+  artifactKey: Guid(446fc4730aadcd04985c8dafaaf0c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 02.prefab using Guid(446fc4730aadcd04985c8dafaaf0c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0356a19a1b09f9af67fffe2e4622061d') in 0.013055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.022241 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/demo_prefabs
+  artifactKey: Guid(35f3590e6e4974745bfc7814b24e523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/demo_prefabs using Guid(35f3590e6e4974745bfc7814b24e523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '078008180097eb404102f8d3f1a0b521') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029038 seconds.
+  path: Assets/Anims/Unfold.anim
+  artifactKey: Guid(754d0c0720aaaea4697c07bbb466b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Unfold.anim using Guid(754d0c0720aaaea4697c07bbb466b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b39acab9aaa51f31dc063f8fe9febc65') in 0.001304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021123 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_02_SPR.prefab
+  artifactKey: Guid(23e27131e182a444dabb093257ca1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_02_SPR.prefab using Guid(23e27131e182a444dabb093257ca1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25f450aeab3e3911e8ace7d7b8290b36') in 0.010897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.044183 seconds.
+  path: Assets/CactusPack/Textures
+  artifactKey: Guid(37ae832085abd7440bc4e1eb9e402d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Textures using Guid(37ae832085abd7440bc4e1eb9e402d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b10d2536c11d021a76d224b6274ac0c') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002334 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers
+  artifactKey: Guid(90af351927cb8c341a2dbed45698d771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Spoilers using Guid(90af351927cb8c341a2dbed45698d771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87c5ca85720c88c17cac360a7ab2cf06') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.263056 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 01.prefab
+  artifactKey: Guid(62724a8cd2495b14f930b7129c3bc47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 01.prefab using Guid(62724a8cd2495b14f930b7129c3bc47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62f199a998fa5e08524fb302bf25e938') in 0.013006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004365 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR.fbx
+  artifactKey: Guid(d6ff0868b9c28da4f86b40cc33772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR.fbx using Guid(d6ff0868b9c28da4f86b40cc33772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fcc0a32ab4c18d91b8527ca0aefb7976') in 0.014393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.007899 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity
+  artifactKey: Guid(594da9eac4a488a479b252ff922516d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity using Guid(594da9eac4a488a479b252ff922516d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9e90299d10f908b1403163b1b74deff') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033953 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 03.prefab
+  artifactKey: Guid(a0c53a09e4a37b5409b1248ebce2c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 03.prefab using Guid(a0c53a09e4a37b5409b1248ebce2c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b234ee2e1d6d582ae66d87569ac16d0c') in 0.012379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006291 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 01.prefab
+  artifactKey: Guid(aee731a00031fcc4d9d2b075e528e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 01.prefab using Guid(aee731a00031fcc4d9d2b075e528e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d420ba832f757f556110eb40b0d34bc') in 0.013871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003424 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 01.prefab
+  artifactKey: Guid(fb8ae0828a555f74996970b8d0495f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type4 01.prefab using Guid(fb8ae0828a555f74996970b8d0495f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59a18a0e1b2c99e7c623e8213a21a9e7') in 0.012417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003488 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 02.prefab
+  artifactKey: Guid(ac00d368a6864c04791bc85c5567bd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 02.prefab using Guid(ac00d368a6864c04791bc85c5567bd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f165a0260dde5e37e8f22c29a0b0a3fe') in 0.011984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002480 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies
+  artifactKey: Guid(e48fc449a4b202243a14d520a5eaa78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies using Guid(e48fc449a4b202243a14d520a5eaa78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '244d516af29ada713933b2d40ece14ac') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015023 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_2.prefab
+  artifactKey: Guid(3231ea2df71864e4bb9c31763ad40d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/_Karts/Kart_Prefab_2.prefab using Guid(3231ea2df71864e4bb9c31763ad40d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '740af2082bb5738233512becf86b07aa') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.867385 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR_COL.fbx
+  artifactKey: Guid(dd89b379f359be84bb93c69ba2a1ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR_COL.fbx using Guid(dd89b379f359be84bb93c69ba2a1ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f2ff1bd92ad818935ae835c29db18c5') in 0.014243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.087533 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_3.prefab
+  artifactKey: Guid(1de75f4d3a249294eaa9a70223d9f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_3.prefab using Guid(1de75f4d3a249294eaa9a70223d9f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '084d9ac64d0bcaddc22835a8f0e521d4') in 0.015891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.022543 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 02.prefab
+  artifactKey: Guid(7641c7e8354e2c44cab6432d9d2c6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type3 02.prefab using Guid(7641c7e8354e2c44cab6432d9d2c6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d7bfc7c51683cbcba5f934f6a9c895f') in 0.013143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.216287 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 02.prefab
+  artifactKey: Guid(5037d6ea184d2f640bf78dcf9894a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 02.prefab using Guid(5037d6ea184d2f640bf78dcf9894a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d724e2abf2aeb1836c48bd295049d3c') in 0.012277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004196 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR.fbx
+  artifactKey: Guid(0786679865b69dc4384a466a1738cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR.fbx using Guid(0786679865b69dc4384a466a1738cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39589392ce37b1ff0b4a8a6856219d20') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.049455 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003
+  artifactKey: Guid(19ee5fc36da208d45b86eb47e0f34cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003 using Guid(19ee5fc36da208d45b86eb47e0f34cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c221fbb0ad53bcb4780433975176e49') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075835 seconds.
+  path: Assets/CactusPack/Shaders
+  artifactKey: Guid(b9243b706b3f02548ada40116253a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Shaders using Guid(b9243b706b3f02548ada40116253a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00b6ae03c5e52f35366f70b82f1f8cec') in 0.000494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005119 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_01_SPR.prefab
+  artifactKey: Guid(6d09cad20aa269845aa2a7b1dc40da21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_01_SPR.prefab using Guid(6d09cad20aa269845aa2a7b1dc40da21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7572f83e7f73bd7d09dad96fcf9ee15') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003833 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR_COL.fbx
+  artifactKey: Guid(69b3d82001c630b4a815362a87944b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR_COL.fbx using Guid(69b3d82001c630b4a815362a87944b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e50ff8444ac9a4f5768a92b080d15f78') in 0.014892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.643139 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(378e67e68ed214c4ab34b5e60051da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(378e67e68ed214c4ab34b5e60051da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ef4ae041784e008640346bc4a3fc536') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.369824 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 04.prefab
+  artifactKey: Guid(8ed1fa325ca228645ad26dd6eff14768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 04.prefab using Guid(8ed1fa325ca228645ad26dd6eff14768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0bb005ac34d6c447d900cc7374104eb6') in 0.161469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.489651 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Heavy_SPR.prefab
+  artifactKey: Guid(5dee555074d788244b68758fc138f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Heavy_SPR.prefab using Guid(5dee555074d788244b68758fc138f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1911bca9146bebbd061d891279a4d30') in 0.010957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.113877 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017
+  artifactKey: Guid(3dd001382e7c0d74ebc4adeb628f7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017 using Guid(3dd001382e7c0d74ebc4adeb628f7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f59cf04abaf0fa6a20a0f11c1ddf758a') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058421 seconds.
+  path: Assets/Fantasy Skybox FREE/ReleaseNotes.txt
+  artifactKey: Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/ReleaseNotes.txt using Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60c91b1e463e3ce6d8056d0e25fc667a') in 0.001596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008202 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic
+  artifactKey: Guid(69ee00d9176dabc4687615071b161c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic using Guid(69ee00d9176dabc4687615071b161c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7feb918bbc6dd32fe80dc45496bea0d6') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003354 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites/Rock_Small_02_SPR.prefab
+  artifactKey: Guid(5d36b60314f97e2408669100196067ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Small_02_SPR.prefab using Guid(5d36b60314f97e2408669100196067ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef7dd6eeabb64fde8e8341b9aa6d7683') in 0.009966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.040547 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images
+  artifactKey: Guid(5b2d5485e96a77647ba075f272f9dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images using Guid(5b2d5485e96a77647ba075f272f9dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1064bcb585cf376736bbc9ddb19aff40') in 0.000609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046520 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003
+  artifactKey: Guid(9f00fc5df5afd114681788f8867341b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003 using Guid(9f00fc5df5afd114681788f8867341b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43b42c2360ebe69ea3fd9a7c322733fc') in 0.000659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024089 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_4.prefab
+  artifactKey: Guid(762302c63feb15047ba5ff2cdaf9f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_4.prefab using Guid(762302c63feb15047ba5ff2cdaf9f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70b705636b818a52a5938ad635481814') in 0.016998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.004122 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR_COL.fbx
+  artifactKey: Guid(a277c0f3e404a9a4f87a7215920dccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR_COL.fbx using Guid(a277c0f3e404a9a4f87a7215920dccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f34254df6672a7ee25f5e5630ad42e64') in 0.014768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.027970 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 02.prefab
+  artifactKey: Guid(5c3cbac9d5eae3844a928d36e6dbd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 02.prefab using Guid(5c3cbac9d5eae3844a928d36e6dbd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78b68d4a5eb876822be770934a28bfea') in 0.017906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.018997 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR.fbx
+  artifactKey: Guid(24e444f8ca9ca3e498ace0ead7b26fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR.fbx using Guid(24e444f8ca9ca3e498ace0ead7b26fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0348ac8e2698c151d2010297b723706') in 0.014641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.027711 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 04.prefab
+  artifactKey: Guid(eed418c5a3c80d448b4cdbe594ebe3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 04.prefab using Guid(eed418c5a3c80d448b4cdbe594ebe3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '154e19e50263ff75a933c808acd59a79') in 0.013952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.027951 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013
+  artifactKey: Guid(3848a36747418694a971cf5c9d659486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013 using Guid(3848a36747418694a971cf5c9d659486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b5d76e3ec62ada17c52ebe3babbaa68') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017476 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_2.prefab
+  artifactKey: Guid(ef5e2744d7cbfc54ca4671fee96e9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Kart_Bodies/Kart_Body_Prefab_2.prefab using Guid(ef5e2744d7cbfc54ca4671fee96e9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c7a28328a9158b8ab730146dca05035') in 0.016685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.024669 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models/Guardrails
+  artifactKey: Guid(fa0f77411b2974c42b4680a207167218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models/Guardrails using Guid(fa0f77411b2974c42b4680a207167218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b799eac33cf376d6801cab60f8739751') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007428 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 05.prefab
+  artifactKey: Guid(c7bcf19bbfa57ed4ea9147dff66d5542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type2 05.prefab using Guid(c7bcf19bbfa57ed4ea9147dff66d5542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb07b80817de552fbe2d029db8c2ff8e') in 0.012584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.042440 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR.fbx
+  artifactKey: Guid(e30802f46d53b984f81c36cfcc0b64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR.fbx using Guid(e30802f46d53b984f81c36cfcc0b64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3d95283e639879998ab1e3db470d66a') in 0.014856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.013395 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Karts_Models
+  artifactKey: Guid(cace0e06b04776c4381db9c969afb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Karts_Models using Guid(cace0e06b04776c4381db9c969afb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '217d5398841e1763118afafbf17e5e97') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003364 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/demo_prefabs/Kart_AI_Demo.prefab
+  artifactKey: Guid(5e3e0cd96e75aa3419235d440d8132ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/demo_prefabs/Kart_AI_Demo.prefab using Guid(5e3e0cd96e75aa3419235d440d8132ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bee68058d7d4cc08791164dfe7fc10bd') in 0.016482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.174159 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR_COL.fbx
+  artifactKey: Guid(846a272773cc16c4dbf6106e3e274648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR_COL.fbx using Guid(846a272773cc16c4dbf6106e3e274648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a55e95ae64a4b98c505a1fc81242b8df') in 0.016122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.004240 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR.fbx
+  artifactKey: Guid(52a63a2495f980f48b58d7bf10374fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR.fbx using Guid(52a63a2495f980f48b58d7bf10374fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a99276bb25a43baa60311a3034a16bfd') in 0.015004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.016183 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoScene/NavMesh.asset
+  artifactKey: Guid(5795cc469f10d354ab05d6e1bee30ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Demo/DemoScene/DemoScene/NavMesh.asset using Guid(5795cc469f10d354ab05d6e1bee30ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff40f4be4047487f341c24fe3662735e') in 0.001735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.104446 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Wheel/Wheel_Prefab.prefab
+  artifactKey: Guid(5ea8ca181b081ff408a734cc87e5112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts/Wheel/Wheel_Prefab.prefab using Guid(5ea8ca181b081ff408a734cc87e5112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58a2320ea599c13308a3682ca209f71d') in 0.018486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.012317 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(788a2251a79684d40aad493ab1f022c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(788a2251a79684d40aad493ab1f022c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44f43016d1accdc08cef8bb939fd4438') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.228330 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs
+  artifactKey: Guid(61e2f7a33e5cc384daa2b7f9271e54b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs using Guid(61e2f7a33e5cc384daa2b7f9271e54b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ccc8df2654c6ff7832e2918385ceeae') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040720 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 03.prefab
+  artifactKey: Guid(55ca4401075700d46a23ae8179a79579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 03.prefab using Guid(55ca4401075700d46a23ae8179a79579) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c29d330a061d575b543577f89d57ad8d') in 0.018129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.053503 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo without test terrain.unity
+  artifactKey: Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo without test terrain.unity using Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed14a5bfc1a1d6b3a9390fb5eb2d3e79') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028936 seconds.
+  path: Assets/Kart Racing Deluxe Pack/Models/Props_Models
+  artifactKey: Guid(f2369c8d7a2875842abac5c8c3dfb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/Models/Props_Models using Guid(f2369c8d7a2875842abac5c8c3dfb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b77ebd4c04caa5270616edf3c8508c3') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008180 seconds.
+  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR_COL.fbx
+  artifactKey: Guid(a91295e0a473a9941952d79832075142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR_COL.fbx using Guid(a91295e0a473a9941952d79832075142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2ac90e7d9b62c573024f8d137b4193c') in 0.014648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.050300 seconds.
+  path: Assets/CactusPack/Scenes
+  artifactKey: Guid(4c8af88e865eb14438f2ea09038d7db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Scenes using Guid(4c8af88e865eb14438f2ea09038d7db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '120141dd5de8afe8aca0881d601cda6a') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100516 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 01.prefab
+  artifactKey: Guid(ec7286e0017272441a3dec9205cb8daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type6 01.prefab using Guid(ec7286e0017272441a3dec9205cb8daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fc2ba83113e5540fb788a724a6eccf1') in 0.012814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.045520 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 03.prefab
+  artifactKey: Guid(069e1e44b643edc4fb4a9d4311a78fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type5 03.prefab using Guid(069e1e44b643edc4fb4a9d4311a78fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1a587723392bbcf541a54fcc665bd4d') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.381505 seconds.
+  path: Assets/CactusPack/Prefabs/Sprites
+  artifactKey: Guid(29e13a69b41bcc74d89c7d06354e70ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Prefabs/Sprites using Guid(29e13a69b41bcc74d89c7d06354e70ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '870cb67bbd855fa809d6901781ef49d8') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030866 seconds.
+  path: Assets/Kart Racing Deluxe Pack/_Prefabs/Karts
+  artifactKey: Guid(9c6a58da14436c84286b9f65714f347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kart Racing Deluxe Pack/_Prefabs/Karts using Guid(9c6a58da14436c84286b9f65714f347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48b21724ff4f902770bda87370fc7585') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040303 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/README.txt
+  artifactKey: Guid(2a6c46a06dfbaf64ba6c90da74864785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/README.txt using Guid(2a6c46a06dfbaf64ba6c90da74864785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b112d531fa0536fd1b6e16a6be44b2dd') in 0.001004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

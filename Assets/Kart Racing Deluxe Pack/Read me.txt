@@ -1,0 +1,126 @@
+
+Thanks for purchasing the Kart Racing Deluxe Pack!
+
+This asset pack contains everything you need for your 3D, AR and VR projects!
+Use the prefabs to create your own racing tracks.
+If you are not sure how to use this pack, then check out the demo scene! It contains a prebuilt demo scene WITH a kart AI example
+
+If you have questions or feedback, feel free to send us an email to monqogames@gmail.com
+
+
+
+Information about the models:
+
+— Karts —
+- Kart 1 (3394 vertices)
+- Kart 2 (3004 vertices)
+- Kart 3 (2777 vertices)
+- Kart 4 (2777 vertices)
+
+— Kart parts —
+
+Kart bodies
+- Kart body (820 vertices)
+
+Wheels
+- Wheels (317 vertices)
+
+Body kits
+- Body kit 1 (260 vertices)
+- Body kit 2 (260 vertices)
+- Body kit 3 (143 vertices
+
+Engines
+- Engine 1 (87 vertices)
+- Engine 2 (143 vertices)
+- Engine 3 (63 vertices)
+
+Exhausts
+- Exhaust 1 (258 vertices)
+- Exhaust 2 (232 vertices)
+- Exhaust 3 (246 vertices)
+
+Spoilers
+- Spoiler 1 (134 vertices)
+- Spoiler 2 (168 vertices)
+- Spoiler 3 (254 vertices)
+
+— Circuit —
+
+- Circuit 1 (293 vertices)
+- Circuit 2 (89 vertices)
+- Circuit 3 (89 verices)
+- Circuit 4 (167 vertices)
+- Circuit 5 (167 vertices)
+- Circuit 6 (245 vertices)
+- Circuit 7 (945 vertices)
+- Circuit 8 (439 vertices)
+- Circuit 9 (439 vertices)
+- Circuit 10 (1187 vertices)
+- Circuit 11 (1187 vertices)
+- Circuit 12 (557 vertices)
+- Circuit 13 (441 vertices)
+
+- Short circuit 1 (82 vertices)
+- Short circuit 2 (82 vertices)
+- Short circuit 3 (82 vertices)
+- Short circuit 4 (26 vertices)
+- Short circuit 5 (26 vertices)
+- Short circuit 6 (26 vertices)
+- Short circuit 7 (146 vertices)
+- Short circuit 8 (125 vertices)
+- Short circuit 9 (125 vertices)
+
+— Items —
+- Gas (309 vertices)
+- Heal (80 vertices)
+- Oil (393 vertices)
+- Racing flags (204 vertices)
+- Trophy (466 vertices)
+
+— Others props —
+
+Barriers
+- Barrier 1 (90 vertices)
+- Barrier 2 (90 vertices)
+- Barrier 3 (90 vertices)
+- Barrier 4 (90 vertices)
+
+Bumps
+- Bump 1 (243 vertices)
+- Bump 2 (486 vertices)
+- Bump 3 (729 vertices)
+- Bump 4 (972 vertices)
+- Bump 5 (1215 vertices)
+
+Flags
+- Flag 1 (152 vertices)
+- Flag 2 (152 vertices)
+- Flag 3 (152 vertices)
+
+Gates
+- Gate 1 (1168 vertices)
+- Gate 2 (1168 vertices)
+- Gate 3 (1168 vertices)
+- Gate 4 (590 vertices)
+- Gate 5 (590 vertices)
+- Gate 6 (590 vertices)
+
+Guardrails
+- Guardrail 1 (680 vertices)
+- Guardrail 2 (680 vertices)
+- Guardrail 3 (400 vertices)
+- Guardrail 4 (400 vertices)
+- Guardrail 5 (400 vertices)
+- Guardrail 6 (400 vertices)
+- Guardrail 7 (552 vertices)
+- Guardrail 8 (1672 vertices)
+- Guardrail 9 (1672 vertices)
+
+- Obstacle 1 (40 vertices)
+- Obstacle 2 (40 vertices)
+- Obstacle 3 (40 vertices)
+- Obstacle 4 (40 vertices)
+- Obstacle 5 (20 vertices)
+- Obstacle 6 (20 vertices)
+- Obstacle 7 (20 vertices)
